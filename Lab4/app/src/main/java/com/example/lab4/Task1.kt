@@ -128,7 +128,7 @@ class Task1 {
                     pickedColor.value = color
                     controller.setWheelColor(color)
                 }) {
-                Text(text = "Retreve Color")
+                Text(text = "Getting Color")
             }
             BoxWithConstraints(
                 modifier = Modifier.background(pickedColor.value).fillMaxWidth().height(50.dp).padding(top = 20.dp)

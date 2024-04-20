@@ -51,7 +51,7 @@ fun MainScreen(context: Context = LocalContext.current, nav: NavController) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(text = "Welcome to Lab 4") },
+                title = { Text(text = "This is Lab 4") },
                 actions = {
                     Button(onClick = {
 
